@@ -1,0 +1,60 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - CocoaLumberjack (3.6.1):
+    - CocoaLumberjack/Core (= 3.6.1)
+  - CocoaLumberjack/Core (3.6.1)
+  - FMDB/FTS (2.7.5):
+    - FMDB/standard
+  - FMDB/standard (2.7.5)
+  - lottie-ios (3.1.8)
+  - Masonry (1.1.0)
+  - MJRefresh (3.4.3)
+  - SDWebImage (5.8.0):
+    - SDWebImage/Core (= 5.8.0)
+  - SDWebImage/Core (5.8.0)
+
+DEPENDENCIES:
+  - AFNetworking
+  - CocoaLumberjack
+  - FMDB/FTS
+  - lottie-ios
+  - Masonry
+  - MJRefresh
+  - SDWebImage
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - CocoaLumberjack
+    - FMDB
+    - lottie-ios
+    - Masonry
+    - MJRefresh
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  CocoaLumberjack: b17ae15142558d08bbacf69775fa10c4abbebcc9
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  lottie-ios: 48fac6be217c76937e36e340e2d09cf7b10b7f5f
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: 53e3e3219f204425ee6d3e62e8733d3295944cd6
+  SDWebImage: 84000f962cbfa70c07f19d2234cbfcf5d779b5dc
+
+PODFILE CHECKSUM: 1d6ed415d0403434d373e50bb723eaae199b4a7e
+
+COCOAPODS: 1.9.0

@@ -1,0 +1,773 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A63A88BEA4D15E343645922 /* Pods_DictationRecorderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD0F4C65C1FC0C0F80E160DF /* Pods_DictationRecorderTests.framework */; };
+		4B68D345D64D7B569B5FDF85 /* Pods_DictationRecorder_DictationRecorderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3704740B50B29E842A94BAFC /* Pods_DictationRecorder_DictationRecorderUITests.framework */; };
+		938928A27B3D3DE851FC2DA5 /* Pods_DictationRecorder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD06370822A89D319FFAAA3A /* Pods_DictationRecorder.framework */; };
+		B19444D4257DE0D500224C06 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B19444D3257DE0D500224C06 /* AppDelegate.m */; };
+		B19444D7257DE0D500224C06 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B19444D6257DE0D500224C06 /* SceneDelegate.m */; };
+		B19444DA257DE0D500224C06 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B19444D9257DE0D500224C06 /* ViewController.m */; };
+		B19444EF257DE0D700224C06 /* DictationRecorderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B19444EE257DE0D700224C06 /* DictationRecorderTests.m */; };
+		B19444FA257DE0D700224C06 /* DictationRecorderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B19444F9257DE0D700224C06 /* DictationRecorderUITests.m */; };
+		B1944533257E0D3500224C06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B194452B257E0D3500224C06 /* Assets.xcassets */; };
+		B1944534257E0D3500224C06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B194452B257E0D3500224C06 /* Assets.xcassets */; };
+		B1944536257E0D3500224C06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B194452C257E0D3500224C06 /* LaunchScreen.storyboard */; };
+		B1944537257E0D3500224C06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B194452C257E0D3500224C06 /* LaunchScreen.storyboard */; };
+		B1944539257E0D3500224C06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B194452E257E0D3500224C06 /* Main.storyboard */; };
+		B194453A257E0D3500224C06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B194452E257E0D3500224C06 /* Main.storyboard */; };
+		B194453B257E0D3500224C06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1944530257E0D3500224C06 /* main.m */; };
+		B194453C257E0D3500224C06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1944530257E0D3500224C06 /* main.m */; };
+		B194453D257E0D3500224C06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1944530257E0D3500224C06 /* main.m */; };
+		B194453F257E0D3500224C06 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B1944531257E0D3500224C06 /* Info.plist */; };
+		B1944540257E0D3500224C06 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B1944531257E0D3500224C06 /* Info.plist */; };
+		B194457F257E11B900224C06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B194452B257E0D3500224C06 /* Assets.xcassets */; };
+		B1944580257E11B900224C06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B194452C257E0D3500224C06 /* LaunchScreen.storyboard */; };
+		B1944581257E11B900224C06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B194452E257E0D3500224C06 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B19444EB257DE0D700224C06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B19444C7257DE0D500224C06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B19444CE257DE0D500224C06;
+			remoteInfo = DictationRecorder;
+		};
+		B19444F6257DE0D700224C06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B19444C7257DE0D500224C06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B19444CE257DE0D500224C06;
+			remoteInfo = DictationRecorder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3704740B50B29E842A94BAFC /* Pods_DictationRecorder_DictationRecorderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DictationRecorder_DictationRecorderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9178C9E2A760CDC025B7566A /* Pods-DictationRecorder-DictationRecorderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DictationRecorder-DictationRecorderUITests.release.xcconfig"; path = "Target Support Files/Pods-DictationRecorder-DictationRecorderUITests/Pods-DictationRecorder-DictationRecorderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9ECE00E2CAA2CCA6D82F280E /* Pods-DictationRecorder-DictationRecorderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DictationRecorder-DictationRecorderUITests.debug.xcconfig"; path = "Target Support Files/Pods-DictationRecorder-DictationRecorderUITests/Pods-DictationRecorder-DictationRecorderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AE7CE856DBECC3E09B79C6A1 /* Pods-DictationRecorder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DictationRecorder.debug.xcconfig"; path = "Target Support Files/Pods-DictationRecorder/Pods-DictationRecorder.debug.xcconfig"; sourceTree = "<group>"; };
+		B1706F28C05CCAE6CA0DAA4E /* Pods-DictationRecorder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DictationRecorder.release.xcconfig"; path = "Target Support Files/Pods-DictationRecorder/Pods-DictationRecorder.release.xcconfig"; sourceTree = "<group>"; };
+		B19444CF257DE0D500224C06 /* DictationRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DictationRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B19444D2257DE0D500224C06 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B19444D3257DE0D500224C06 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B19444D5257DE0D500224C06 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		B19444D6257DE0D500224C06 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		B19444D8257DE0D500224C06 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B19444D9257DE0D500224C06 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B19444EA257DE0D700224C06 /* DictationRecorderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DictationRecorderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B19444EE257DE0D700224C06 /* DictationRecorderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DictationRecorderTests.m; sourceTree = "<group>"; };
+		B19444F0257DE0D700224C06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B19444F5257DE0D700224C06 /* DictationRecorderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DictationRecorderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B19444F9257DE0D700224C06 /* DictationRecorderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DictationRecorderUITests.m; sourceTree = "<group>"; };
+		B19444FB257DE0D700224C06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B194452B257E0D3500224C06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B194452D257E0D3500224C06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B194452F257E0D3500224C06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B1944530257E0D3500224C06 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B1944531257E0D3500224C06 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD0F4C65C1FC0C0F80E160DF /* Pods_DictationRecorderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DictationRecorderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D65B80A6AD093F69FCE1C111 /* Pods-DictationRecorderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DictationRecorderTests.debug.xcconfig"; path = "Target Support Files/Pods-DictationRecorderTests/Pods-DictationRecorderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DD06370822A89D319FFAAA3A /* Pods_DictationRecorder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DictationRecorder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F19DA82661A2BC2C092BBBA7 /* Pods-DictationRecorderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DictationRecorderTests.release.xcconfig"; path = "Target Support Files/Pods-DictationRecorderTests/Pods-DictationRecorderTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B19444CC257DE0D500224C06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				938928A27B3D3DE851FC2DA5 /* Pods_DictationRecorder.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B19444E7257DE0D700224C06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A63A88BEA4D15E343645922 /* Pods_DictationRecorderTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B19444F2257DE0D700224C06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B68D345D64D7B569B5FDF85 /* Pods_DictationRecorder_DictationRecorderUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		401BCA3ABDB4C8F598A44A8C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE7CE856DBECC3E09B79C6A1 /* Pods-DictationRecorder.debug.xcconfig */,
+				B1706F28C05CCAE6CA0DAA4E /* Pods-DictationRecorder.release.xcconfig */,
+				9ECE00E2CAA2CCA6D82F280E /* Pods-DictationRecorder-DictationRecorderUITests.debug.xcconfig */,
+				9178C9E2A760CDC025B7566A /* Pods-DictationRecorder-DictationRecorderUITests.release.xcconfig */,
+				D65B80A6AD093F69FCE1C111 /* Pods-DictationRecorderTests.debug.xcconfig */,
+				F19DA82661A2BC2C092BBBA7 /* Pods-DictationRecorderTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B19444C6257DE0D500224C06 = {
+			isa = PBXGroup;
+			children = (
+				B19444D1257DE0D500224C06 /* DictationRecorder */,
+				B19444ED257DE0D700224C06 /* DictationRecorderTests */,
+				B19444F8257DE0D700224C06 /* DictationRecorderUITests */,
+				B19444D0257DE0D500224C06 /* Products */,
+				401BCA3ABDB4C8F598A44A8C /* Pods */,
+				DA43F7BE7793A0983EB912CC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B19444D0257DE0D500224C06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B19444CF257DE0D500224C06 /* DictationRecorder.app */,
+				B19444EA257DE0D700224C06 /* DictationRecorderTests.xctest */,
+				B19444F5257DE0D700224C06 /* DictationRecorderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B19444D1257DE0D500224C06 /* DictationRecorder */ = {
+			isa = PBXGroup;
+			children = (
+				B194452A257E0D3500224C06 /* SupportingFiles */,
+				B19444D2257DE0D500224C06 /* AppDelegate.h */,
+				B19444D3257DE0D500224C06 /* AppDelegate.m */,
+				B19444D5257DE0D500224C06 /* SceneDelegate.h */,
+				B19444D6257DE0D500224C06 /* SceneDelegate.m */,
+				B19444D8257DE0D500224C06 /* ViewController.h */,
+				B19444D9257DE0D500224C06 /* ViewController.m */,
+			);
+			path = DictationRecorder;
+			sourceTree = "<group>";
+		};
+		B19444ED257DE0D700224C06 /* DictationRecorderTests */ = {
+			isa = PBXGroup;
+			children = (
+				B19444EE257DE0D700224C06 /* DictationRecorderTests.m */,
+				B19444F0257DE0D700224C06 /* Info.plist */,
+			);
+			path = DictationRecorderTests;
+			sourceTree = "<group>";
+		};
+		B19444F8257DE0D700224C06 /* DictationRecorderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B19444F9257DE0D700224C06 /* DictationRecorderUITests.m */,
+				B19444FB257DE0D700224C06 /* Info.plist */,
+			);
+			path = DictationRecorderUITests;
+			sourceTree = "<group>";
+		};
+		B194452A257E0D3500224C06 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				B194452B257E0D3500224C06 /* Assets.xcassets */,
+				B194452C257E0D3500224C06 /* LaunchScreen.storyboard */,
+				B194452E257E0D3500224C06 /* Main.storyboard */,
+				B1944530257E0D3500224C06 /* main.m */,
+				B1944531257E0D3500224C06 /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		DA43F7BE7793A0983EB912CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD06370822A89D319FFAAA3A /* Pods_DictationRecorder.framework */,
+				3704740B50B29E842A94BAFC /* Pods_DictationRecorder_DictationRecorderUITests.framework */,
+				BD0F4C65C1FC0C0F80E160DF /* Pods_DictationRecorderTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B19444CE257DE0D500224C06 /* DictationRecorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B19444FE257DE0D700224C06 /* Build configuration list for PBXNativeTarget "DictationRecorder" */;
+			buildPhases = (
+				E7D05CA4B05BFBC8C890B5FD /* [CP] Check Pods Manifest.lock */,
+				B19444CB257DE0D500224C06 /* Sources */,
+				B19444CC257DE0D500224C06 /* Frameworks */,
+				B19444CD257DE0D500224C06 /* Resources */,
+				AB6602BD42E00F826F17A189 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DictationRecorder;
+			productName = DictationRecorder;
+			productReference = B19444CF257DE0D500224C06 /* DictationRecorder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B19444E9257DE0D700224C06 /* DictationRecorderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1944501257DE0D700224C06 /* Build configuration list for PBXNativeTarget "DictationRecorderTests" */;
+			buildPhases = (
+				21EED1C82147F30B53BD6B9E /* [CP] Check Pods Manifest.lock */,
+				B19444E6257DE0D700224C06 /* Sources */,
+				B19444E7257DE0D700224C06 /* Frameworks */,
+				B19444E8257DE0D700224C06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B19444EC257DE0D700224C06 /* PBXTargetDependency */,
+			);
+			name = DictationRecorderTests;
+			productName = DictationRecorderTests;
+			productReference = B19444EA257DE0D700224C06 /* DictationRecorderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B19444F4257DE0D700224C06 /* DictationRecorderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1944504257DE0D700224C06 /* Build configuration list for PBXNativeTarget "DictationRecorderUITests" */;
+			buildPhases = (
+				5F9300BE1A3C35191CAB11A9 /* [CP] Check Pods Manifest.lock */,
+				B19444F1257DE0D700224C06 /* Sources */,
+				B19444F2257DE0D700224C06 /* Frameworks */,
+				B19444F3257DE0D700224C06 /* Resources */,
+				04C0456290233F7FDCAD4BB5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B19444F7257DE0D700224C06 /* PBXTargetDependency */,
+			);
+			name = DictationRecorderUITests;
+			productName = DictationRecorderUITests;
+			productReference = B19444F5257DE0D700224C06 /* DictationRecorderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B19444C7257DE0D500224C06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					B19444CE257DE0D500224C06 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					B19444E9257DE0D700224C06 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = B19444CE257DE0D500224C06;
+					};
+					B19444F4257DE0D700224C06 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = B19444CE257DE0D500224C06;
+					};
+				};
+			};
+			buildConfigurationList = B19444CA257DE0D500224C06 /* Build configuration list for PBXProject "DictationRecorder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B19444C6257DE0D500224C06;
+			productRefGroup = B19444D0257DE0D500224C06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B19444CE257DE0D500224C06 /* DictationRecorder */,
+				B19444E9257DE0D700224C06 /* DictationRecorderTests */,
+				B19444F4257DE0D700224C06 /* DictationRecorderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B19444CD257DE0D500224C06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B194457F257E11B900224C06 /* Assets.xcassets in Resources */,
+				B1944580257E11B900224C06 /* LaunchScreen.storyboard in Resources */,
+				B1944581257E11B900224C06 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B19444E8257DE0D700224C06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B194453F257E0D3500224C06 /* Info.plist in Resources */,
+				B1944539257E0D3500224C06 /* Main.storyboard in Resources */,
+				B1944533257E0D3500224C06 /* Assets.xcassets in Resources */,
+				B1944536257E0D3500224C06 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B19444F3257DE0D700224C06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1944540257E0D3500224C06 /* Info.plist in Resources */,
+				B194453A257E0D3500224C06 /* Main.storyboard in Resources */,
+				B1944534257E0D3500224C06 /* Assets.xcassets in Resources */,
+				B1944537257E0D3500224C06 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04C0456290233F7FDCAD4BB5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DictationRecorder-DictationRecorderUITests/Pods-DictationRecorder-DictationRecorderUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DictationRecorder-DictationRecorderUITests/Pods-DictationRecorder-DictationRecorderUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DictationRecorder-DictationRecorderUITests/Pods-DictationRecorder-DictationRecorderUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		21EED1C82147F30B53BD6B9E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DictationRecorderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F9300BE1A3C35191CAB11A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DictationRecorder-DictationRecorderUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB6602BD42E00F826F17A189 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DictationRecorder/Pods-DictationRecorder-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DictationRecorder/Pods-DictationRecorder-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DictationRecorder/Pods-DictationRecorder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7D05CA4B05BFBC8C890B5FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DictationRecorder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B19444CB257DE0D500224C06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B194453B257E0D3500224C06 /* main.m in Sources */,
+				B19444DA257DE0D500224C06 /* ViewController.m in Sources */,
+				B19444D4257DE0D500224C06 /* AppDelegate.m in Sources */,
+				B19444D7257DE0D500224C06 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B19444E6257DE0D700224C06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B194453C257E0D3500224C06 /* main.m in Sources */,
+				B19444EF257DE0D700224C06 /* DictationRecorderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B19444F1257DE0D700224C06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B194453D257E0D3500224C06 /* main.m in Sources */,
+				B19444FA257DE0D700224C06 /* DictationRecorderUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B19444EC257DE0D700224C06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B19444CE257DE0D500224C06 /* DictationRecorder */;
+			targetProxy = B19444EB257DE0D700224C06 /* PBXContainerItemProxy */;
+		};
+		B19444F7257DE0D700224C06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B19444CE257DE0D500224C06 /* DictationRecorder */;
+			targetProxy = B19444F6257DE0D700224C06 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B194452C257E0D3500224C06 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B194452D257E0D3500224C06 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B194452E257E0D3500224C06 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B194452F257E0D3500224C06 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B19444FC257DE0D700224C06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B19444FD257DE0D700224C06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B19444FF257DE0D700224C06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE7CE856DBECC3E09B79C6A1 /* Pods-DictationRecorder.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DictationRecorder/SupportingFiles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyl.DictationRecorder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B1944500257DE0D700224C06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1706F28C05CCAE6CA0DAA4E /* Pods-DictationRecorder.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DictationRecorder/SupportingFiles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyl.DictationRecorder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B1944502257DE0D700224C06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D65B80A6AD093F69FCE1C111 /* Pods-DictationRecorderTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DictationRecorderTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyl.DictationRecorderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DictationRecorder.app/DictationRecorder";
+			};
+			name = Debug;
+		};
+		B1944503257DE0D700224C06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F19DA82661A2BC2C092BBBA7 /* Pods-DictationRecorderTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DictationRecorderTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyl.DictationRecorderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DictationRecorder.app/DictationRecorder";
+			};
+			name = Release;
+		};
+		B1944505257DE0D700224C06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ECE00E2CAA2CCA6D82F280E /* Pods-DictationRecorder-DictationRecorderUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DictationRecorderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyl.DictationRecorderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DictationRecorder;
+			};
+			name = Debug;
+		};
+		B1944506257DE0D700224C06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9178C9E2A760CDC025B7566A /* Pods-DictationRecorder-DictationRecorderUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DictationRecorderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyl.DictationRecorderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DictationRecorder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B19444CA257DE0D500224C06 /* Build configuration list for PBXProject "DictationRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B19444FC257DE0D700224C06 /* Debug */,
+				B19444FD257DE0D700224C06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B19444FE257DE0D700224C06 /* Build configuration list for PBXNativeTarget "DictationRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B19444FF257DE0D700224C06 /* Debug */,
+				B1944500257DE0D700224C06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1944501257DE0D700224C06 /* Build configuration list for PBXNativeTarget "DictationRecorderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1944502257DE0D700224C06 /* Debug */,
+				B1944503257DE0D700224C06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1944504257DE0D700224C06 /* Build configuration list for PBXNativeTarget "DictationRecorderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1944505257DE0D700224C06 /* Debug */,
+				B1944506257DE0D700224C06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B19444C7257DE0D500224C06 /* Project object */;
+}
